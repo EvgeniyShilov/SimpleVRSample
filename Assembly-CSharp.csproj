@@ -52,11 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AScript.cs" />
+     <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\BScript.cs" />
      <Compile Include="Assets\Scripts\ColorScript.cs" />
      <Compile Include="Assets\Scripts\DScript.cs" />
      <Compile Include="Assets\Scripts\GScript.cs" />
-     <Compile Include="Assets\Scripts\KeyMover.cs" />
+     <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\TimeInstance.cs" />
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>

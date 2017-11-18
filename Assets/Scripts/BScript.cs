@@ -7,7 +7,7 @@ public class BScript : MonoBehaviour {
 	public GameObject timeObject;
 	private TimeInstance timeHolder;
 
-	public AudioSource audio;
+	private AudioSource audio;
 
 	private Vector3 defaultPosition;
 
@@ -21,8 +21,8 @@ public class BScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position = defaultPosition;
-		transform.position += KeyMover.getPositionDelta(defaultPosition, 5f, timeHolder.getTime());
-		transform.position += KeyMover.getPositionDelta(defaultPosition, 13f, timeHolder.getTime());
+		transform.position += Mover.getKeyPositionDelta(4f, timeHolder.getTime());
+		transform.position += Mover.getKeyPositionDelta(12f, timeHolder.getTime());
 		if (transform.position.y <= -0.3f && !audio.isPlaying)
 			audio.Play ();
 	}
