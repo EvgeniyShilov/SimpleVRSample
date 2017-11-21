@@ -38,3 +38,4 @@ D:\Sources\SimpleVRSample\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 D:\Sources\SimpleVRSample\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\Sources\SimpleVRSample\obj\Debug\Assembly-CSharp.dll
 D:\Sources\SimpleVRSample\obj\Debug\Assembly-CSharp.pdb
+D:\Sources\SimpleVRSample\Temp\bin\Debug\Google.ProtocolBuffers.dll

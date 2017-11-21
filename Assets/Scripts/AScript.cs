@@ -26,7 +26,7 @@ public class AScript : MonoBehaviour {
 		transform.position += Mover.getKeyPositionDelta(8f, timeHolder.getTime());
 		transform.position += Mover.getKeyPositionDelta(11f, timeHolder.getTime());
 		transform.position += Mover.getKeyPositionDelta(14f, timeHolder.getTime());
-		if (transform.position.y <= -0.3f && !audio.isPlaying)
+		if (transform.position.y <= 0.7f && !audio.isPlaying)
 			audio.Play ();
 	}
 }

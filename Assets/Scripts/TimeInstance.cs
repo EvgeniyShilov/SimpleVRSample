@@ -8,7 +8,7 @@ public class TimeInstance : MonoBehaviour {
 
 	private float time;
 	private bool playBack = false;
-	private bool paused = false;
+	private bool paused = true;
 
 	void Start() {
 		resetTime();
