@@ -11,12 +11,12 @@ public class Mover
 	{
 	}
 
-	public static Vector3 getKeyPositionDelta(float startTime, float currentTime) {
+	public static Vector3 getKeyPositionDelta(Vector3 defaultPosition, float startTime, float currentTime) {
 		if (currentTime < startTime || currentTime > startTime + DEFAULT_KEY_MOVE_TIME)
-			return Vector3.down * 0f;
+			return Vector3.zero;
 		float playTime = (currentTime - startTime) / DEFAULT_KEY_MOVE_TIME;
 		float distance = DEFAULT_KEY_MOVE_DISTANCE - Mathf.Abs (DEFAULT_KEY_MOVE_DISTANCE - 2 * DEFAULT_KEY_MOVE_DISTANCE * playTime / DEFAULT_KEY_MOVE_TIME);
-		return Vector3.down * distance;
+		return defaultPosition + Vector3.down * distance;
 	}
 
 	public static Vector3 getBallPosition(Vector3 startPosition, Vector3 endPosition, float startTime, float endTime, float currentTime) {
@@ -33,6 +33,6 @@ public class Mover
 		float X = startXVelocity * T;
 		float Y = startYVelocity * T - DEFAULT_GRAVITY * Mathf.Pow (T, 2) / 2;
 		float Z = startZVelocity * T;
-		return new Vector3 (X, Y, Z);
+		return startPosition + new Vector3 (X, Y, Z);
 	}
 }

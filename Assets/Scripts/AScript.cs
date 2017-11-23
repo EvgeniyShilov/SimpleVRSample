@@ -21,11 +21,15 @@ public class AScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position = defaultPosition;
-		transform.position += Mover.getKeyPositionDelta(2f, timeHolder.getTime());
-		transform.position += Mover.getKeyPositionDelta(6f, timeHolder.getTime());
-		transform.position += Mover.getKeyPositionDelta(8f, timeHolder.getTime());
-		transform.position += Mover.getKeyPositionDelta(11f, timeHolder.getTime());
-		transform.position += Mover.getKeyPositionDelta(14f, timeHolder.getTime());
+		MelodyProvider.Note[] notes = timeHolder.isEgg() ? MelodyProvider.notes1 : MelodyProvider.notes2;
+		for (int i = 0; i < notes.Length; i++) {
+			MelodyProvider.Note note = notes [i];
+			if (note.key == 'a') {
+				Vector3 position = Mover.getKeyPositionDelta (defaultPosition, note.time, timeHolder.getTime ());
+				if (position != Vector3.zero)
+					transform.position = position;
+			}
+		}
 		if (transform.position.y <= 0.7f && !audio.isPlaying)
 			audio.Play ();
 	}

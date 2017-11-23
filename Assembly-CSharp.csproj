@@ -158,8 +158,13 @@
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\BScript.cs" />
      <Compile Include="Assets\Scripts\ColorScript.cs" />
+     <Compile Include="Assets\Scripts\CScript.cs" />
      <Compile Include="Assets\Scripts\DScript.cs" />
+     <Compile Include="Assets\Scripts\EnvironmentScript.cs" />
+     <Compile Include="Assets\Scripts\EScript.cs" />
+     <Compile Include="Assets\Scripts\FScript.cs" />
      <Compile Include="Assets\Scripts\GScript.cs" />
+     <Compile Include="Assets\Scripts\MelodyProvider.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\TimeInstance.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
@@ -209,14 +214,14 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>D:/Sources/SimpleVRSample/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/EvgeniyShilov/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/Users/EvgeniyShilov/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/Sources/SimpleVRSample/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
