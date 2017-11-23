@@ -1,4 +1,5 @@
 Android
+b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.FScript
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 c9737d14ba7a2fc69347a243e2d68150 Assembly-CSharp.dll:GoogleVR.GVRDemo.HeadsetDemoManager
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -189,9 +190,12 @@ b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.BScript
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
 82c4df0703ee0c74fec7eda7f1754686 Assembly-CSharp.dll:.GvrAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrPointerManager
+05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.DScript
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrTrackedController
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
+b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.CScript
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -209,6 +213,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.GVRDemo.Teleport
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerTooltipsSimple
+b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.EScript
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 2a56361227def9f56c2cf57a88b32f4d UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -237,7 +242,8 @@ eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
 a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
 764d2ecb131d46720e1b8d63b8f7c2ba Assembly-CSharp.dll:GoogleVR.KeyboardDemo.KeyboardDelegateExample
 6b8bc70a4e737406cfd584f788ef5376 Assembly-CSharp.dll:.GvrAudioSource
-c2afe5270825bdbc198814ebfcbdc304 Assembly-CSharp.dll:.BallScript
+b10e88d0bd4a23a174e405b6396c6f94 Assembly-CSharp.dll:.EnvironmentScript
+d7d023d4dbebf6da5b8dc7d042e77548 Assembly-CSharp.dll:.BallScript
 f6784f1788009fb15d5a1088e00687bc Assembly-CSharp.dll:.ColorScript
 7f88db6deea6b4d2af344791aaa07731 Assembly-CSharp.dll:.GvrPointerInputModule
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrController
